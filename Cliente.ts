@@ -1,6 +1,7 @@
-export type Cliente = {
-    id: string;
-    nome: string;
-    email: string;
+type Clientes ={
+    nome : string;
+    cpf: string;
     telefone: string;
-};
+    id: string;
+}
+export type {Clientes}
